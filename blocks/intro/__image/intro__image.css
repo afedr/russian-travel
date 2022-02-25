@@ -1,0 +1,9 @@
+.intro__image {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  object-fit: cover;
+  width: 984px;
+  height: 615px;
+  margin: 64px auto 0;
+}

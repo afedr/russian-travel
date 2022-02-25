@@ -1,0 +1,6 @@
+.header__link {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,8 @@
+.header__menu {
+  list-style: none;
+  display: flex;
+  color: white;
+  margin: 48px 48px 0 0;
+  align-items: center;
+  gap: 18px;
+}

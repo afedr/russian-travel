@@ -1,0 +1,9 @@
+.text__statistics {
+  max-width: 690px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+  margin: 33px 0;
+}
