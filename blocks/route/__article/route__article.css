@@ -1,4 +1,26 @@
 .route__article {
   margin: 0;
   padding-bottom: 26px;
+  font-size: 1.125rem;
+  line-height: 163%;
+}
+
+.route__article:last-of-type {
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width:768px) {
+  .route__article {
+    font-size: 1rem;
+    line-height: 163%;
+    grid-column: 1;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .route__article {
+    max-width: 90%;
+    padding-top: 26px;
+    padding-bottom: 0px;
+  }
 }

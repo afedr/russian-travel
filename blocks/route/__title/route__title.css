@@ -1,7 +1,33 @@
 .route__title {
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  margin: 0;
+  font-size: 4.5rem;
+  line-height: 106%;
+  margin: 0 0 3rem;
   align-self: flex-end;
+  max-width: 460px;
+}
+
+@media screen and (max-width:1024px) {
+  .route__title {
+    font-size: 4.5rem;
+    line-height: 106%;
+    width: 42.96%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .route__title {
+    font-size: 2.625rem;
+    line-height: 110%;
+    width: 44.27%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .route__title {
+    font-size: 2rem;
+    line-height: 109%;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
 }

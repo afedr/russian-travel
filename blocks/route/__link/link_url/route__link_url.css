@@ -1,8 +1,20 @@
 .route__link_url {
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 122%;
   color: white;
   margin: 0;
-  ;
+  max-width: 456px;
+}
+
+@media screen and (max-width:768px) {
+  .route__link_url {
+    width: 45.83%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .route__link_url {
+    width: 90%;
+  }
 }

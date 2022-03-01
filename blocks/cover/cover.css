@@ -1,17 +1,22 @@
 .cover {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   max-width: 1184px;
   position: relative;
   z-index: 1;
-  margin: 92px 0;
+  margin: 92px auto;
+  max-width: 1184px;
+  padding: 0;
+  height: 740px;
 }
 
 .cover::before {
   content: '';
   position: absolute;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -26,8 +31,15 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width:1184px) {
+@media screen and (max-width:1280px) {
   .cover {
-    min-height: 740px;
+    width: 92.5%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .cover {
+    width: 100%;
+    height: 62.5vw;
   }
 }
