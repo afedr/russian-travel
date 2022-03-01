@@ -3,4 +3,19 @@
   list-style: none;
   text-decoration: none;
   color: white;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.header__link:hover {
+  opacity: .3;
+}
+
+@media screen and (max-width: 320px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

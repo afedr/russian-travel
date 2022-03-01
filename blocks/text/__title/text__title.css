@@ -1,7 +1,21 @@
 .text__title {
   max-width: 690px;
-  font-size: 54px;
-  line-height: 58px;
+  font-size: 3.375rem;
+  line-height: 1.07;
   font-weight: 900;
   margin: 114px 0 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .text__title {
+    margin-top: 6.875rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .text__title {
+    font-size: 2rem;
+    line-height: 35px;
+    margin-top: 5.375rem;
+  }
 }

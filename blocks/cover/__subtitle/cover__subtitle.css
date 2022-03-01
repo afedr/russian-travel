@@ -1,8 +1,9 @@
-.route__link_url {
+.cover__subtitle {
+  width: 360px;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
   color: white;
-  margin: 0;
-  ;
+  margin: 32px 0;
 }

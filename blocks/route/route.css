@@ -1,7 +1,27 @@
 .route {
   display: grid;
-  margin: 92px 0;
+  margin: 92px 0 0;
   row-gap: 48px;
   column-gap: 40px;
+  column-gap: 40px;
   grid-template-columns: 460px minmax(min-content, max-content);
+  max-width: 984px;
+}
+
+@media screen and (max-width:1024px) {
+  .route {
+    width: 90.628%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .route {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .route {
+    width: 100%;
+  }
 }

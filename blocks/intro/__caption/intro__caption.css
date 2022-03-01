@@ -1,0 +1,21 @@
+.intro__caption {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  justify-self: start;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__caption {
+    margin-left: 16px;
+  }
+}
