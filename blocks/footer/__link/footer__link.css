@@ -7,10 +7,10 @@
   text-decoration: none;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:760px) {
   .footer__link {
     padding-bottom: 32px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 100%;
   }
 }

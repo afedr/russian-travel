@@ -5,13 +5,13 @@
   margin: 0 0 3rem;
   align-self: flex-end;
   max-width: 460px;
+  width: 100%;
 }
 
 @media screen and (max-width:1024px) {
   .route__title {
     font-size: 4.5rem;
     line-height: 106%;
-    width: 42.96%;
   }
 }
 
@@ -19,7 +19,6 @@
   .route__title {
     font-size: 2.625rem;
     line-height: 110%;
-    width: 44.27%;
   }
 }
 
@@ -27,7 +26,6 @@
   .route__title {
     font-size: 2rem;
     line-height: 109%;
-    width: 90%;
     margin-bottom: 2rem;
   }
 }

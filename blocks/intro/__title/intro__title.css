@@ -3,19 +3,19 @@
   font-size: 3.375rem;
   line-height: 1.07;
   font-weight: 900;
-  margin: 114px 0 40px 0;
+  margin: 92px 0 40px 0;
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
-    margin-top: 6.875rem;
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__title {
     font-size: 2rem;
-    line-height: 35px;
-    margin-top: 5.375rem;
+    line-height: 1.09;
+    margin-top: 64px;
   }
 }

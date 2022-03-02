@@ -19,7 +19,6 @@
     font-size: 4.375vw;
     line-height: 1.14;
     width: 90%;
-    /* margin-top: 16px; */
     left: calc((100% - 90%)/2);
     bottom: calc((100% - 134px)/2);
   }
