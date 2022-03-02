@@ -1,4 +1,4 @@
-.text__title {
+.intro__title {
   max-width: 690px;
   font-size: 3.375rem;
   line-height: 1.07;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .text__title {
+  .intro__title {
     margin-top: 6.875rem;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .text__title {
+  .intro__title {
     font-size: 2rem;
     line-height: 35px;
     margin-top: 5.375rem;

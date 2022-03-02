@@ -1,22 +1,22 @@
-.text {
+.intro {
   max-width: 984px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-  .text {
+  .intro {
     width: 90.625%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .text {
+  .intro {
     width: 93.75%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .text {
+  .intro {
     width: 90%;
   }
 }

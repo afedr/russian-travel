@@ -1,4 +1,4 @@
-.text__subtitle {
+.intro__subtitle {
   max-width: 690px;
   font-size: 1rem;
   line-height: 1.63;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .text__subtitle {
+  .intro__subtitle {
     width: 93.75%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .text__subtitle {
+  .intro__subtitle {
     width: 90%;
   }
 }
