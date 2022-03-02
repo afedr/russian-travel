@@ -43,3 +43,15 @@
     height: 62.5vw;
   }
 }
+
+@media screen and (max-width:768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+}

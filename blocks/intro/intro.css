@@ -8,13 +8,13 @@
   }
   
   @media screen and (max-width: 1024px) {
-    .lead {
+    .intro {
       width: 90.625%;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .lead {
+    .intro {
       width: 100%;
     }
   }

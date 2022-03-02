@@ -1,9 +1,11 @@
 # Проект: Путешествие по России
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+### Технологии
+* Flex-box
+* Grid
+* CSS BEM Nested
+* Media queries
+* Adaptive landing
 
 **Интро**
 

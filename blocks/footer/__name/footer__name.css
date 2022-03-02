@@ -2,7 +2,18 @@
   display: flex;
   margin: 0;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1.14;
   text-align: right;
+}
+
+@media screen and (max-width:768px) {
+  .footer__name {
+    padding-bottom: 24px;
+    font-size: 0.875rem;
+    line-height: 100%;
+    margin: 0;
+    padding-left: 16px;
+    flex-direction: row-reverse;
+  }
 }

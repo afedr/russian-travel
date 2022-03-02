@@ -4,10 +4,26 @@
   display: flex;
   padding-bottom: 24px;
   justify-content: space-between;
+  padding: 0;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1024px) {
   .footer {
-    width: 98.01%;
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer {
+    width: 93.75%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .footer {
+    width: 58.125%;
+    margin: 0;
+    padding-left: 16px;
   }
 }
