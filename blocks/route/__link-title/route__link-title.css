@@ -1,4 +1,4 @@
-.route__link_title {
+.route__link-title {
   color: #AAAAAA;
   font-weight: normal;
   font-size: 0.75rem;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width:768px) {
-  .route__link_title {
+  .route__link-title {
     width: 45.83%;
   }
 }
 
 @media screen and (max-width:320px) {
-  .route__link_title {
+  .route__link-title {
     width: 90%;
   }
 }

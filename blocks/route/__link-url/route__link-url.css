@@ -1,4 +1,4 @@
-.route__link_url {
+.route__link-url {
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 122%;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width:768px) {
-  .route__link_url {
+  .route__link-url {
     width: 45.83%;
   }
 }
 
 @media screen and (max-width:320px) {
-  .route__link_url {
+  .route__link-url {
     width: 90%;
   }
 }
