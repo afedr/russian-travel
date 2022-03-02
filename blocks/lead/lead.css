@@ -1,4 +1,4 @@
-  .intro {
+  .lead {
     background-color: #2A2C2F;
     margin: 0 auto;
     display: flex;
@@ -8,13 +8,13 @@
   }
   
   @media screen and (max-width: 1024px) {
-    .intro {
+    .lead {
       width: 90.625%;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .intro {
+    .lead {
       width: 100%;
     }
   }

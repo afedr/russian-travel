@@ -1,4 +1,4 @@
-.intro__caption {
+.lead__caption {
   font-style: normal;
   font-weight: normal;
   font-size: 0.625rem;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .intro__caption {
+  .lead__caption {
     margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .intro__caption {
+  .lead__caption {
     margin-left: 16px;
   }
 }
