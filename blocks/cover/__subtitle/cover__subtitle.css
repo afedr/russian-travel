@@ -7,7 +7,6 @@
   color: white;
   margin: 0;
   display: flex;
-  text-align: center;
   align-self: center;
   position: absolute;
   left: calc((100% - 360px)/2);
